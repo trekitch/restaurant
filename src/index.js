@@ -1,15 +1,18 @@
 import "./style.css";
-import Restaurant from "./restaurant.jpg";
+import bbqPic from "./ribs.jpg";
 
 function homePage() {
     const content = document.querySelector("#content");
     const header = document.createElement("h1");
     const aboutText = document.createElement("p");
 
-    const restaurantPic = new Image();
-    restaurantPic.src = Restaurant;
+    header.textContent = "This is a header";
+    content.appendChild(header);
 
-    content.appendChild(restaurantPic);
+    const bbqImg = new Image();
+    bbqImg.src = bbqPic;
+
+    content.appendChild(bbqImg);
 
     return content;
 }
