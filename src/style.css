@@ -1,3 +1,21 @@
-h1 {
-    color: red;
+img {
+    height:  500px;
+    width: 500px;
+}
+
+.header {
+    text-align: center;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid black;
+}
+
+.navbar li {
+    list-style-type: none;
 }
