@@ -1,6 +1,7 @@
 import familyPic from "./family.jpg";
 import foodPic from "./food.jpg";
 import friendsPic from "./friends.jpg";
+import homePage from "./home";
 
 function aboutPage() {
     const content = document.querySelector("#content");
@@ -108,6 +109,12 @@ function aboutPage() {
     content.appendChild(header);
     content.appendChild(navbar);
     content.append(aboutUsTitle, aboutUsText, valuesTitle, valuesSection);
+
+    const homeBtn = document.querySelector(".homePage");
+    homeBtn.addEventListener("click", () => {
+        content.innerHTML = "";
+        document.body.appendChild(homePage());
+    });
 
     return content;
 }

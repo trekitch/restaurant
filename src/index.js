@@ -7,11 +7,6 @@ const content = document.querySelector("#content");
 
 document.body.appendChild(homePage());
 
-const homeBtn = document.querySelector(".homePage");
-homeBtn.addEventListener("click", () => {
-    console.log("clicked home");
-});
-
 const aboutBtn = document.querySelector(".aboutPage");
 aboutBtn.addEventListener("click", () => {
     content.innerHTML = "";

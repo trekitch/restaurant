@@ -1,5 +1,7 @@
 import bbqPic from "./ribs.jpg";
 
+import aboutPage from "./about";
+
 function homePage() {
     const content = document.querySelector("#content");
     //creates the header
@@ -47,6 +49,12 @@ function homePage() {
     content.appendChild(header);
     content.appendChild(navbar);
     content.appendChild(infosec);
+
+    const aboutBtn = document.querySelector(".aboutPage");
+    aboutBtn.addEventListener("click", () => {
+        content.innerHTML = "";
+        document.body.appendChild(aboutPage());
+    });
 
     return content;
 }
