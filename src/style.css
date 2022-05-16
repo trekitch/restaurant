@@ -72,3 +72,29 @@ body {
     font-weight: bold;
     padding-bottom: 25px;
 }
+
+.menuList {
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid blueviolet;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.items {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    background-color: bisque;
+}
+
+.items p {
+    font-size: 24px;
+    padding: 10px;
+    background-color: grey;
+    color: whitesmoke;
+}

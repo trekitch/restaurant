@@ -1,5 +1,6 @@
 import bbqPic from "./ribs.jpg";
 
+import menuPage from "./menu";
 import aboutPage from "./about";
 
 function homePage() {
@@ -55,6 +56,12 @@ function homePage() {
         content.innerHTML = "";
         document.body.appendChild(aboutPage());
     });
+
+    // const menuBtn = document.querySelector(".menuPage");
+    // menuBtn.addEventListener("click", () => {
+    //     content.innerHTML = "";
+    //     document.body.appendChild(menuPage());
+    // });
 
     return content;
 }
