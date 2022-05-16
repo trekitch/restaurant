@@ -15,9 +15,16 @@ function homePage() {
     const contact = document.createElement("li");
 
     home.textContent = "Home";
+    home.classList.add("homePage");
+
     about.textContent = "About";
+    about.classList.add("aboutPage");
+
     menu.textContent = "Menu";
+    menu.classList.add("menuPage");
+
     contact.textContent = "Contact";
+    contact.classList.add("contactPage");
     navbar.classList.add("navbar");
     navbar.append(home, about, menu, contact);
 
@@ -33,7 +40,6 @@ function homePage() {
 
     const bbqImg = new Image();
     bbqImg.src = bbqPic;
-    bbqImg.classList.add("center");
     img.appendChild(bbqImg);
 
     infosec.append(blurb, img);
