@@ -1,4 +1,4 @@
-import bbqPic from "./ribs.jpg";
+import bbqPic from "./images/ribs.jpg";
 
 function homePage() {
     const component = document.createElement("div");

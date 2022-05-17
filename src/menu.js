@@ -1,7 +1,7 @@
-import steakPic from "./steak.jpg";
-import chickenPic from "./chicken.jpg";
-import ribPic from "./ribs2.jpg";
-import burgerPic from "./burger.jpg";
+import steakPic from "./images/steak.jpg";
+import chickenPic from "./images/chicken.jpg";
+import ribPic from "./images/ribs2.jpg";
+import burgerPic from "./images/burger.jpg";
 
 function menuPage() {
     const component = document.createElement("div");

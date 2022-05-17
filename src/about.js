@@ -1,8 +1,6 @@
-import familyPic from "./family.jpg";
-import foodPic from "./food.jpg";
-import friendsPic from "./friends.jpg";
-import homePage from "./home";
-import menuPage from "./menu";
+import familyPic from "./images/family.jpg";
+import foodPic from "./images/food.jpg";
+import friendsPic from "./images/friends.jpg";
 
 function aboutPage() {
     const component = document.createElement("div");

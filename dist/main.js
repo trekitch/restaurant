@@ -136,7 +136,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _family_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./family.jpg */ \"./src/family.jpg\");\n/* harmony import */ var _food_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./food.jpg */ \"./src/food.jpg\");\n/* harmony import */ var _friends_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./friends.jpg */ \"./src/friends.jpg\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\r\n\r\n\r\n\r\n\r\n\r\nfunction aboutPage() {\r\n    const component = document.createElement(\"div\");\r\n    const aboutUsTitle = document.createElement(\"h1\");\r\n    aboutUsTitle.textContent = \"About Us\";\r\n    const aboutUsText = document.createElement(\"div\");\r\n    aboutUsText.classList.add(\"infosec\");\r\n    aboutUsText.classList.add(\"blurb\");\r\n    aboutUsText.textContent =\r\n        \"Lorem ipsum dolor sit, amet consectetur adipisicing elit. At neque porro eveniet aliquam earum veritatis adipisci magnam, tenetur quisquam voluptas doloremque qui amet facilis voluptatibus repellat provident quis id soluta?\";\r\n\r\n    const dummyText = \"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi repellendus dolores quis quibusdam delectus consectetur saepe ducimus quam totam. Quis vero sapiente tempora natus ea doloribus nemo velit animi!\";\r\n\r\n    const valuesTitle = document.createElement(\"h2\");\r\n    valuesTitle.textContent = \"Our Values\";\r\n\r\n    const valuesSection = document.createElement(\"div\");\r\n\r\n    const familySec = document.createElement(\"div\");\r\n\r\n    const familyTitle = document.createElement(\"p\");\r\n    familyTitle.classList.add(\"title\");\r\n    familyTitle.textContent = \"Family\";\r\n    familySec.classList.add(\"infosec\");\r\n\r\n    const familyBlurb = document.createElement(\"div\");\r\n    familyBlurb.classList.add(\"blurb\");\r\n    const familyBlurbText = document.createElement(\"p\");\r\n    familyBlurbText.textContent = dummyText;\r\n    familyBlurb.append(familyTitle, familyBlurbText);\r\n    familySec.appendChild(familyBlurb);\r\n\r\n    const familyImg = new Image();\r\n    familyImg.src = _family_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n\r\n    familySec.appendChild(familyImg);\r\n\r\n    const friendsSec = document.createElement(\"div\");\r\n\r\n    const friendsImg = new Image();\r\n    friendsImg.src = _friends_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\n\r\n    friendsSec.appendChild(friendsImg);\r\n\r\n    const friendsTitle = document.createElement(\"p\");\r\n    friendsTitle.classList.add(\"title\");\r\n    friendsTitle.textContent = \"Friends\";\r\n    friendsSec.classList.add(\"infosec\");\r\n\r\n    const friendsBlurb = document.createElement(\"div\");\r\n    friendsBlurb.classList.add(\"blurb\");\r\n    const friendsBlurbText = document.createElement(\"p\");\r\n    friendsBlurbText.textContent = dummyText;\r\n    friendsBlurb.append(friendsTitle, dummyText);\r\n    friendsSec.append(friendsBlurb);\r\n\r\n    const foodSec = document.createElement(\"div\");\r\n\r\n    const foodTitle = document.createElement(\"p\");\r\n    foodTitle.classList.add(\"title\");\r\n    foodTitle.textContent = \"Food\";\r\n    foodSec.classList.add(\"infosec\");\r\n\r\n    const foodBlurb = document.createElement(\"div\");\r\n    foodBlurb.classList.add(\"blurb\");\r\n    const foodBlurbText = document.createElement(\"p\");\r\n    foodBlurbText.textContent = dummyText;\r\n    foodBlurb.append(foodTitle, dummyText);\r\n    foodSec.append(foodBlurb);\r\n\r\n    const foodImg = new Image();\r\n    foodImg.src = _food_jpg__WEBPACK_IMPORTED_MODULE_1__;\r\n\r\n    foodSec.appendChild(foodImg);\r\n\r\n    valuesSection.append(familySec, friendsSec, foodSec);\r\n\r\n    component.append(aboutUsTitle, aboutUsText, valuesTitle, valuesSection);\r\n\r\n    return component;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (aboutPage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_family_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/family.jpg */ \"./src/images/family.jpg\");\n/* harmony import */ var _images_food_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/food.jpg */ \"./src/images/food.jpg\");\n/* harmony import */ var _images_friends_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/friends.jpg */ \"./src/images/friends.jpg\");\n\r\n\r\n\r\n\r\nfunction aboutPage() {\r\n    const component = document.createElement(\"div\");\r\n    const aboutUsTitle = document.createElement(\"h1\");\r\n    aboutUsTitle.textContent = \"About Us\";\r\n    const aboutUsText = document.createElement(\"div\");\r\n    aboutUsText.classList.add(\"infosec\");\r\n    aboutUsText.classList.add(\"blurb\");\r\n    aboutUsText.textContent =\r\n        \"Lorem ipsum dolor sit, amet consectetur adipisicing elit. At neque porro eveniet aliquam earum veritatis adipisci magnam, tenetur quisquam voluptas doloremque qui amet facilis voluptatibus repellat provident quis id soluta?\";\r\n\r\n    const dummyText = \"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi repellendus dolores quis quibusdam delectus consectetur saepe ducimus quam totam. Quis vero sapiente tempora natus ea doloribus nemo velit animi!\";\r\n\r\n    const valuesTitle = document.createElement(\"h2\");\r\n    valuesTitle.textContent = \"Our Values\";\r\n\r\n    const valuesSection = document.createElement(\"div\");\r\n\r\n    const familySec = document.createElement(\"div\");\r\n\r\n    const familyTitle = document.createElement(\"p\");\r\n    familyTitle.classList.add(\"title\");\r\n    familyTitle.textContent = \"Family\";\r\n    familySec.classList.add(\"infosec\");\r\n\r\n    const familyBlurb = document.createElement(\"div\");\r\n    familyBlurb.classList.add(\"blurb\");\r\n    const familyBlurbText = document.createElement(\"p\");\r\n    familyBlurbText.textContent = dummyText;\r\n    familyBlurb.append(familyTitle, familyBlurbText);\r\n    familySec.appendChild(familyBlurb);\r\n\r\n    const familyImg = new Image();\r\n    familyImg.src = _images_family_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n\r\n    familySec.appendChild(familyImg);\r\n\r\n    const friendsSec = document.createElement(\"div\");\r\n\r\n    const friendsImg = new Image();\r\n    friendsImg.src = _images_friends_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\n\r\n    friendsSec.appendChild(friendsImg);\r\n\r\n    const friendsTitle = document.createElement(\"p\");\r\n    friendsTitle.classList.add(\"title\");\r\n    friendsTitle.textContent = \"Friends\";\r\n    friendsSec.classList.add(\"infosec\");\r\n\r\n    const friendsBlurb = document.createElement(\"div\");\r\n    friendsBlurb.classList.add(\"blurb\");\r\n    const friendsBlurbText = document.createElement(\"p\");\r\n    friendsBlurbText.textContent = dummyText;\r\n    friendsBlurb.append(friendsTitle, dummyText);\r\n    friendsSec.append(friendsBlurb);\r\n\r\n    const foodSec = document.createElement(\"div\");\r\n\r\n    const foodTitle = document.createElement(\"p\");\r\n    foodTitle.classList.add(\"title\");\r\n    foodTitle.textContent = \"Food\";\r\n    foodSec.classList.add(\"infosec\");\r\n\r\n    const foodBlurb = document.createElement(\"div\");\r\n    foodBlurb.classList.add(\"blurb\");\r\n    const foodBlurbText = document.createElement(\"p\");\r\n    foodBlurbText.textContent = dummyText;\r\n    foodBlurb.append(foodTitle, dummyText);\r\n    foodSec.append(foodBlurb);\r\n\r\n    const foodImg = new Image();\r\n    foodImg.src = _images_food_jpg__WEBPACK_IMPORTED_MODULE_1__;\r\n\r\n    foodSec.appendChild(foodImg);\r\n\r\n    valuesSection.append(familySec, friendsSec, foodSec);\r\n\r\n    component.append(aboutUsTitle, aboutUsText, valuesTitle, valuesSection);\r\n\r\n    return component;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (aboutPage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/about.js?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _ribs_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ribs.jpg */ \"./src/ribs.jpg\");\n\r\n\r\nfunction homePage() {\r\n    const component = document.createElement(\"div\");\r\n    //creates info blurb section and adds image\r\n    const infosec = document.createElement(\"div\");\r\n    infosec.classList.add(\"infosec\");\r\n    const blurb = document.createElement(\"div\");\r\n    blurb.classList.add(\"blurb\");\r\n    const img = document.createElement(\"div\");\r\n\r\n    blurb.innerHTML =\r\n        \"<h2>We value you here</h2><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. A impedit sit nemo quasi aliquid asperiores reprehenderit sequi ad, fuga aut suscipit cumque ipsa culpa explicabo et aspernatur nihil! Voluptate, exercitationem.\";\r\n\r\n    const bbqImg = new Image();\r\n    bbqImg.src = _ribs_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    img.appendChild(bbqImg);\r\n\r\n    infosec.append(blurb, img);\r\n\r\n    component.appendChild(infosec);\r\n\r\n    return component;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homePage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_ribs_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/ribs.jpg */ \"./src/images/ribs.jpg\");\n\r\n\r\nfunction homePage() {\r\n    const component = document.createElement(\"div\");\r\n    //creates info blurb section and adds image\r\n    const infosec = document.createElement(\"div\");\r\n    infosec.classList.add(\"infosec\");\r\n    const blurb = document.createElement(\"div\");\r\n    blurb.classList.add(\"blurb\");\r\n    const img = document.createElement(\"div\");\r\n\r\n    blurb.innerHTML =\r\n        \"<h2>We value you here</h2><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. A impedit sit nemo quasi aliquid asperiores reprehenderit sequi ad, fuga aut suscipit cumque ipsa culpa explicabo et aspernatur nihil! Voluptate, exercitationem.\";\r\n\r\n    const bbqImg = new Image();\r\n    bbqImg.src = _images_ribs_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    img.appendChild(bbqImg);\r\n\r\n    infosec.append(blurb, img);\r\n\r\n    component.appendChild(infosec);\r\n\r\n    return component;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homePage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/home.js?");
 
 /***/ }),
 
@@ -166,87 +166,87 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _steak_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./steak.jpg */ \"./src/steak.jpg\");\n/* harmony import */ var _chicken_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./chicken.jpg */ \"./src/chicken.jpg\");\n/* harmony import */ var _ribs2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ribs2.jpg */ \"./src/ribs2.jpg\");\n/* harmony import */ var _burger_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./burger.jpg */ \"./src/burger.jpg\");\n\r\n\r\n\r\n\r\n\r\nfunction menuPage() {\r\n    const component = document.createElement(\"div\");\r\n    const menuTitle = document.createElement(\"h1\");\r\n    menuTitle.textContent = \"Menu\";\r\n\r\n    const menuList = document.createElement(\"div\");\r\n    menuList.classList.add(\"menuList\");\r\n\r\n    const ribItem = document.createElement(\"div\");\r\n    const ribText = document.createElement(\"p\");\r\n    const ribImg = new Image();\r\n    ribImg.src = _ribs2_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\n    ribItem.classList.add(\"items\");\r\n    ribText.textContent = \"Ribs\";\r\n    ribItem.append(ribText, ribImg);\r\n\r\n    const steakItem = document.createElement(\"div\");\r\n    const steakText = document.createElement(\"p\");\r\n    const steakImg = new Image();\r\n    steakImg.src = _steak_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    steakItem.classList.add(\"items\");\r\n    steakText.textContent = \"Steak\";\r\n    steakItem.append(steakText, steakImg);\r\n\r\n    const burgerItem = document.createElement(\"div\");\r\n    const burgerText = document.createElement(\"p\");\r\n    const burgerImg = new Image();\r\n    burgerImg.src = _burger_jpg__WEBPACK_IMPORTED_MODULE_3__;\r\n    burgerItem.classList.add(\"items\");\r\n    burgerText.textContent = \"Steaks\";\r\n    burgerItem.append(burgerText, burgerImg);\r\n\r\n    const chickenItem = document.createElement(\"div\");\r\n    const chickenText = document.createElement(\"p\");\r\n    const chickenImg = new Image();\r\n    chickenImg.src = _chicken_jpg__WEBPACK_IMPORTED_MODULE_1__;\r\n    chickenItem.classList.add(\"items\");\r\n    chickenText.textContent = \"Chicken\";\r\n    chickenItem.append(chickenText, chickenImg);\r\n\r\n    menuList.append(ribItem, steakItem, burgerItem, chickenItem);\r\n\r\n    component.appendChild(menuList);\r\n\r\n    return component;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_steak_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/steak.jpg */ \"./src/images/steak.jpg\");\n/* harmony import */ var _images_chicken_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/chicken.jpg */ \"./src/images/chicken.jpg\");\n/* harmony import */ var _images_ribs2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/ribs2.jpg */ \"./src/images/ribs2.jpg\");\n/* harmony import */ var _images_burger_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/burger.jpg */ \"./src/images/burger.jpg\");\n\r\n\r\n\r\n\r\n\r\nfunction menuPage() {\r\n    const component = document.createElement(\"div\");\r\n    const menuTitle = document.createElement(\"h1\");\r\n    menuTitle.textContent = \"Menu\";\r\n\r\n    const menuList = document.createElement(\"div\");\r\n    menuList.classList.add(\"menuList\");\r\n\r\n    const ribItem = document.createElement(\"div\");\r\n    const ribText = document.createElement(\"p\");\r\n    const ribImg = new Image();\r\n    ribImg.src = _images_ribs2_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\n    ribItem.classList.add(\"items\");\r\n    ribText.textContent = \"Ribs\";\r\n    ribItem.append(ribText, ribImg);\r\n\r\n    const steakItem = document.createElement(\"div\");\r\n    const steakText = document.createElement(\"p\");\r\n    const steakImg = new Image();\r\n    steakImg.src = _images_steak_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    steakItem.classList.add(\"items\");\r\n    steakText.textContent = \"Steak\";\r\n    steakItem.append(steakText, steakImg);\r\n\r\n    const burgerItem = document.createElement(\"div\");\r\n    const burgerText = document.createElement(\"p\");\r\n    const burgerImg = new Image();\r\n    burgerImg.src = _images_burger_jpg__WEBPACK_IMPORTED_MODULE_3__;\r\n    burgerItem.classList.add(\"items\");\r\n    burgerText.textContent = \"Steaks\";\r\n    burgerItem.append(burgerText, burgerImg);\r\n\r\n    const chickenItem = document.createElement(\"div\");\r\n    const chickenText = document.createElement(\"p\");\r\n    const chickenImg = new Image();\r\n    chickenImg.src = _images_chicken_jpg__WEBPACK_IMPORTED_MODULE_1__;\r\n    chickenItem.classList.add(\"items\");\r\n    chickenText.textContent = \"Chicken\";\r\n    chickenItem.append(chickenText, chickenImg);\r\n\r\n    menuList.append(ribItem, steakItem, burgerItem, chickenItem);\r\n\r\n    component.appendChild(menuList);\r\n\r\n    return component;\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/menu.js?");
 
 /***/ }),
 
-/***/ "./src/burger.jpg":
-/*!************************!*\
-  !*** ./src/burger.jpg ***!
-  \************************/
+/***/ "./src/images/burger.jpg":
+/*!*******************************!*\
+  !*** ./src/images/burger.jpg ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"66c8153699de0e723ee6.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/burger.jpg?");
+eval("module.exports = __webpack_require__.p + \"66c8153699de0e723ee6.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/burger.jpg?");
 
 /***/ }),
 
-/***/ "./src/chicken.jpg":
-/*!*************************!*\
-  !*** ./src/chicken.jpg ***!
-  \*************************/
+/***/ "./src/images/chicken.jpg":
+/*!********************************!*\
+  !*** ./src/images/chicken.jpg ***!
+  \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7bda869db1ef2a541762.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/chicken.jpg?");
+eval("module.exports = __webpack_require__.p + \"7bda869db1ef2a541762.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/chicken.jpg?");
 
 /***/ }),
 
-/***/ "./src/family.jpg":
-/*!************************!*\
-  !*** ./src/family.jpg ***!
-  \************************/
+/***/ "./src/images/family.jpg":
+/*!*******************************!*\
+  !*** ./src/images/family.jpg ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"2694852d2533cb552ace.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/family.jpg?");
+eval("module.exports = __webpack_require__.p + \"2694852d2533cb552ace.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/family.jpg?");
 
 /***/ }),
 
-/***/ "./src/food.jpg":
-/*!**********************!*\
-  !*** ./src/food.jpg ***!
-  \**********************/
+/***/ "./src/images/food.jpg":
+/*!*****************************!*\
+  !*** ./src/images/food.jpg ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"79d371a5c3241df285ff.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/food.jpg?");
+eval("module.exports = __webpack_require__.p + \"79d371a5c3241df285ff.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/food.jpg?");
 
 /***/ }),
 
-/***/ "./src/friends.jpg":
-/*!*************************!*\
-  !*** ./src/friends.jpg ***!
-  \*************************/
+/***/ "./src/images/friends.jpg":
+/*!********************************!*\
+  !*** ./src/images/friends.jpg ***!
+  \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8b39121cb87d9f105525.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/friends.jpg?");
+eval("module.exports = __webpack_require__.p + \"8b39121cb87d9f105525.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/friends.jpg?");
 
 /***/ }),
 
-/***/ "./src/ribs.jpg":
-/*!**********************!*\
-  !*** ./src/ribs.jpg ***!
-  \**********************/
+/***/ "./src/images/ribs.jpg":
+/*!*****************************!*\
+  !*** ./src/images/ribs.jpg ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"88f63f997321b42a0762.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/ribs.jpg?");
+eval("module.exports = __webpack_require__.p + \"88f63f997321b42a0762.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/ribs.jpg?");
 
 /***/ }),
 
-/***/ "./src/ribs2.jpg":
-/*!***********************!*\
-  !*** ./src/ribs2.jpg ***!
-  \***********************/
+/***/ "./src/images/ribs2.jpg":
+/*!******************************!*\
+  !*** ./src/images/ribs2.jpg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a6128a28b6f155d51c7f.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/ribs2.jpg?");
+eval("module.exports = __webpack_require__.p + \"a6128a28b6f155d51c7f.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/ribs2.jpg?");
 
 /***/ }),
 
-/***/ "./src/steak.jpg":
-/*!***********************!*\
-  !*** ./src/steak.jpg ***!
-  \***********************/
+/***/ "./src/images/steak.jpg":
+/*!******************************!*\
+  !*** ./src/images/steak.jpg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"70220ea091f8c1f80fdc.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/steak.jpg?");
+eval("module.exports = __webpack_require__.p + \"70220ea091f8c1f80fdc.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/steak.jpg?");
 
 /***/ })
 
