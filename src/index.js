@@ -32,22 +32,23 @@ contact.classList.add("contactPage");
 navbar.classList.add("navbar");
 navbar.append(home, about, menu, contact);
 
-content.append(header, navbar, homePage());
+//content.append(header, navbar, homePage());
+//content.append(header, navbar);
 
-const homeBtn = document.querySelector(".homePage");
-homeBtn.addEventListener("click", () => {
-    content.innerHTML = "";
-    content.append(header, navbar, homePage());
-});
+// const homeBtn = document.querySelector(".homePage");
+// homeBtn.addEventListener("click", () => {
+//     content.innerHTML = "";
+//     content.append(header, navbar, homePage());
+// });
 
-const aboutBtn = document.querySelector(".aboutPage");
-aboutBtn.addEventListener("click", () => {
-    content.innerHTML = "";
-    content.append(header, navbar, aboutPage());
-});
+// const aboutBtn = document.querySelector(".aboutPage");
+// aboutBtn.addEventListener("click", () => {
+//     content.innerHTML = "";
+//     content.append(header, navbar, aboutPage());
+// });
 
-const menuBtn = document.querySelector(".menuPage");
-menuBtn.addEventListener("click", () => {
-    content.innerHTML = "";
-    content.append(header, navbar, menuPage());
-});
+// const menuBtn = document.querySelector(".menuPage");
+// menuBtn.addEventListener("click", () => {
+//     content.innerHTML = "";
+//     content.append(header, navbar, menuPage());
+// });
