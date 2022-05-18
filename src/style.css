@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 h1,h2 {
     text-align: center;
     font-size: 64px;
@@ -101,5 +104,75 @@ body {
 
 .contactSec {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-top: 5em;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.contactSec > div {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding-top: 10px;
+    height: 500px;
+    width: 500px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactSec h3 {
+    padding-bottom: 15px;
+}
+
+.contactFormSect label {
+    font-size: 0.8em;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.contactFormSect input,
+.contactFormSect textarea {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.contactFormSect input:focus,
+.contactFormSect textarea:focus {
+    outline: none;
+    border: 1px solid rgb(174, 234, 253);
+    box-shadow: 2px 2px 2px grey;
+}
+
+.contactFormSect button {
+    text-align: center;
+    padding: 10px 30px;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #e4a34f;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
 }
