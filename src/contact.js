@@ -55,6 +55,11 @@ function contactPage() {
             form.appendChild(fieldInput);
         }
     });
+
+    const formBtn = document.createElement("button");
+    formBtn.setAttribute("type", "button");
+    formBtn.textContent = "Send Message";
+    form.appendChild(formBtn);
     contactFormSection.appendChild(formTitle);
     contactFormSection.appendChild($hr);
     contactFormSection.appendChild(form);
