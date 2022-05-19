@@ -20,6 +20,8 @@ function navBar() {
     home.textContent = "Home";
     home.classList.add("homePage");
 
+    home.classList.add("active");
+
     about.textContent = "About";
     about.classList.add("aboutPage");
 
