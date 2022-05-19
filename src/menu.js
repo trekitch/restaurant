@@ -45,7 +45,7 @@ function menuPage() {
 
     menuList.append(ribItem, steakItem, burgerItem, chickenItem);
 
-    component.appendChild(menuList);
+    component.append(menuTitle, menuList);
 
     return component;
 }
