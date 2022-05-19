@@ -1,6 +1,11 @@
+import homePage from "./home";
+import aboutPage from "./about";
+import menuPage from "./menu";
+import contactPage from "./contact.js";
+
 function navBar() {
     //creates the header
-    const header = document.createElement("div");
+    const content = document.querySelector("#content");
     const heading = document.createElement("div");
 
     heading.textContent = "Tre's Famous BBQ Emporium";
@@ -25,9 +30,38 @@ function navBar() {
     contact.classList.add("contactPage");
     navbar.classList.add("navbar");
     navbar.append(home, about, menu, contact);
-    header.append(heading, navbar);
+    content.append(heading);
+    content.append(navbar);
 
-    return header;
+    const homeBtn = document.querySelector(".homePage");
+    homeBtn.addEventListener("click", () => {
+        content.innerHTML = "";
+        document.body.append(navBar());
+        content.appendChild(homePage());
+    });
+
+    const aboutBtn = document.querySelector(".aboutPage");
+    aboutBtn.addEventListener("click", () => {
+        content.innerHTML = "";
+        document.body.append(navBar());
+        content.appendChild(aboutPage());
+    });
+
+    const menuBtn = document.querySelector(".menuPage");
+    menuBtn.addEventListener("click", () => {
+        content.innerHTML = "";
+        document.body.append(navBar());
+        content.appendChild(menuPage());
+    });
+
+    const contactBtn = document.querySelector(".contactPage");
+    contactBtn.addEventListener("click", () => {
+        content.innerHTML = "";
+        document.body.append(navBar());
+        content.appendChild(menuPage());
+    });
+
+    return content;
 }
 
 export default navBar;
