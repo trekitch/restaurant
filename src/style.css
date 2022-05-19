@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #8BAAAD;
+    background-color: #E0FBFC;
 }
 
 .center {
@@ -36,6 +36,11 @@ body {
 
 #content{
     flex-grow: 1;
+}
+
+.header,
+.navbar {
+    background-color: #9DB0B6;
 }
 
 .header {
@@ -49,6 +54,8 @@ body {
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    border-bottom: 5px solid black;
+    border-top: 2px solid black;
 }
 
 .navbar li {
@@ -63,6 +70,7 @@ body {
 
 .navbar li.active {
     color: #e4a34f;
+    font-weight: 700;
 }
 
 .infosec {
@@ -75,14 +83,14 @@ body {
     margin-top: 1em;
     padding: 7px;
     gap: 30px;
-    background-color: #59656F;
+    background-color: #9DB0B6;
     box-shadow: 5px 5px hwb(0 0% 100% / 0.445);
-    border: 2px solid whitesmoke;
+    border: 2px solid black;
 }
 
 .blurb{
     font-size: 40px;
-    color: white;
+    color: black;
 }
 
 .title{
@@ -105,13 +113,20 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 5px;
-    background-color: bisque;
+    background-color: #9DB0B6;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px hwb(0 0% 100% / 0.445);
+}
+
+.items:hover {
+    cursor: pointer;
 }
 
 .items p {
     font-size: 24px;
     padding: 10px;
-    background-color: grey;
+    background-color: #9DB0B6;
     color: whitesmoke;
 }
 
@@ -132,9 +147,9 @@ body {
     width: 600px;
     padding-left: 35px;
     padding-right: 35px;
-    background-color: #59656F;
-    border: 2px solid white;
-    color: white;
+    background-color: #9DB0B6;
+    border: 2px solid black;
+    color: black;
     box-shadow: 5px 5px hwb(0 0% 100% / 0.445);
 }
 
@@ -174,7 +189,7 @@ body {
 .contactFormSect input:focus,
 .contactFormSect textarea:focus {
     outline: none;
-    border: 1px solid rgb(174, 234, 253);
+    border: 1px solid black;
     box-shadow: 2px 2px 2px grey;
 }
 
