@@ -35,30 +35,50 @@ function navBar() {
 
     const homeBtn = document.querySelector(".homePage");
     homeBtn.addEventListener("click", () => {
-        content.innerHTML = "";
-        document.body.append(navBar());
-        content.appendChild(homePage());
+        const container = document.querySelector(".container");
+        const navBtns = document.querySelector(".navbar").childNodes;
+        navBtns.forEach((element) => {
+            element.classList.remove("active");
+        });
+        container.innerHTML = "";
+        container.append(homePage());
+        home.classList.add("active");
     });
 
     const aboutBtn = document.querySelector(".aboutPage");
     aboutBtn.addEventListener("click", () => {
-        content.innerHTML = "";
-        document.body.append(navBar());
-        content.appendChild(aboutPage());
+        const container = document.querySelector(".container");
+        const navBtns = document.querySelector(".navbar").childNodes;
+        navBtns.forEach((element) => {
+            element.classList.remove("active");
+        });
+        container.innerHTML = "";
+        container.append(aboutPage());
+        about.classList.add("active");
     });
 
     const menuBtn = document.querySelector(".menuPage");
     menuBtn.addEventListener("click", () => {
-        content.innerHTML = "";
-        document.body.append(navBar());
-        content.appendChild(menuPage());
+        const container = document.querySelector(".container");
+        const navBtns = document.querySelector(".navbar").childNodes;
+        navBtns.forEach((element) => {
+            element.classList.remove("active");
+        });
+        container.innerHTML = "";
+        container.append(menuPage());
+        menu.classList.add("active");
     });
 
     const contactBtn = document.querySelector(".contactPage");
     contactBtn.addEventListener("click", () => {
-        content.innerHTML = "";
-        document.body.append(navBar());
-        content.appendChild(menuPage());
+        const container = document.querySelector(".container");
+        const navBtns = document.querySelector(".navbar").childNodes;
+        navBtns.forEach((element) => {
+            element.classList.remove("active");
+        });
+        container.innerHTML = "";
+        container.append(contactPage());
+        contact.classList.add("active");
     });
 
     return content;

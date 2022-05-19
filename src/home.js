@@ -1,10 +1,11 @@
 import bbqPic from "./images/ribs.jpg";
 
 function homePage() {
-    const component = document.createElement("div");
+    const component = document.querySelector("div");
     //creates info blurb section and adds image
     const infosec = document.createElement("div");
     infosec.classList.add("infosec");
+    infosec.classList.add("container");
     const blurb = document.createElement("div");
     blurb.classList.add("blurb");
     const img = document.createElement("div");
@@ -20,7 +21,7 @@ function homePage() {
 
     component.appendChild(infosec);
 
-    return component;
+    return infosec;
 }
 
 export default homePage;

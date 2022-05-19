@@ -4,6 +4,7 @@ import friendsPic from "./images/friends.jpg";
 
 function aboutPage() {
     const component = document.createElement("div");
+    component.classList.add("container");
     const aboutUsTitle = document.createElement("h1");
     aboutUsTitle.textContent = "About Us";
     const aboutUsText = document.createElement("div");
