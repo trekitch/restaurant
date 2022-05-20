@@ -7,6 +7,8 @@ function navBar() {
     //creates the header
     const content = document.querySelector("#content");
     const heading = document.createElement("div");
+    const navContainer = document.createElement("div");
+    navContainer.classList.add("navcontain");
 
     heading.textContent = "Tre's Famous BBQ Emporium";
     heading.classList.add("header");
@@ -32,8 +34,8 @@ function navBar() {
     contact.classList.add("contactPage");
     navbar.classList.add("navbar");
     navbar.append(home, about, menu, contact);
-    content.append(heading);
-    content.append(navbar);
+    navContainer.append(heading, navbar);
+    content.append(navContainer);
 
     const homeBtn = document.querySelector(".homePage");
     homeBtn.addEventListener("click", () => {
