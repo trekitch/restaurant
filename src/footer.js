@@ -1,4 +1,4 @@
-import githubPic from "./images/github.png";
+import githubPic from "./images/github-light.png";
 
 function footer() {
     const footer = document.createElement("footer");
